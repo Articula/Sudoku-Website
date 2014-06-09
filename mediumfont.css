@@ -1,0 +1,22 @@
+/*
+
+	Medium font CSS sheet - Sizes all text to the "medium" setting.
+
+*/
+
+
+#leftcolumn{
+	font-size: 1.3em;
+}
+
+#rightcolumn {
+	font-size: 1.3em;
+}
+
+#centalcolumn{
+	font-size: 1.0em;
+}
+
+#footer {
+	font-size: 1.0em;
+}

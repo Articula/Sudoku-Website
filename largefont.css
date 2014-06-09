@@ -1,0 +1,22 @@
+/*
+
+	Large font CSS sheet - Sizes all text to the "large" setting.
+
+*/
+
+
+#leftcolumn{
+	font-size: 1.5em;
+}
+
+#rightcolumn {
+	font-size: 1.5em;
+}
+
+#centalcolumn{
+	font-size: 1.15em;
+}
+
+#footer {
+	font-size: 1.2em;
+}

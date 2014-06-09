@@ -1,0 +1,31 @@
+/*
+
+	Contrast Up CSS sheet - Changes background colours to a light yellow setting.
+
+*/
+
+
+html{
+	background:#fff08e;
+}
+
+#header{
+	background:#e7c800;
+}
+
+#leftcolumn{
+	background:#ebd756;
+}
+
+#rightcolumn {
+	background:#ebd756;
+}
+
+
+#footer {
+	background:#e7c800;
+}
+
+#sudoku div {
+	background:#fdf5c2;
+	}

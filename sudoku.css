@@ -1,0 +1,109 @@
+/*
+
+	The CSS for the html page
+	
+*/
+
+
+html {
+    margin:0;
+    padding:0;
+    background:#b9b2ff;
+    color:#000;
+    }
+    
+body {
+    text-align: center;
+    }
+
+#center {
+    margin:0 auto;
+    width:800px;
+    }
+
+#header {
+	padding-left: 0px;
+	margin-bottom: 0px;
+	background:#9389ff;
+}
+
+
+#leftcolumn{
+	float:left;
+	max-width:150px;
+	min-height:560px;
+	background:#5932ff;
+	text-align: left;
+	padding-right:10px;
+}
+
+#leftcolumn li{
+	list-style: none;
+    margin:0;
+    padding:10px;
+}
+
+#leftcolumn a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#leftcolumn a:hover{
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+
+#rightcolumn {
+	float:right;
+	max-width:150px;
+	background:#5932ff;
+	padding:10px;
+	min-height:540px;
+	text-align:left;
+}
+
+#rightcolumn li{
+	list-style: none;
+    margin:0;
+    padding:10;
+}
+
+#rightcolumn a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#rightcolumn a:hover{
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+#centralcolumn {
+	min-width:500px;
+	background:#d4d0ff;
+	padding-left:5px;
+}
+
+#centralcolumn a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#centralcolumn a:hover{
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+#sudoku {
+	padding-top:10px;
+}
+
+
+#footer {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	clear: both;
+	background-color: #9227ff;
+}

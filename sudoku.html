@@ -1,0 +1,151 @@
+<html>
+
+	<head>
+		<title>Faye Doherty's Sudoku</title>
+		<link rel="stylesheet" href="sudoku.css"/>
+		<link rel="stylesheet" href="smallfont.css" title="smallfont"/>
+		<link rel="stylesheet" href="game.css"/>
+		<link rel="stylesheet" href="printversion.css" media="print"/>
+		<link rel="alternate stylesheet" href="mediumfont.css" title="mediumfont"/>
+		<link rel="alternate stylesheet" href="largefont.css" title="largefont"/>
+		<link rel="alternate stylesheet" href="contrastup.css" title="contrastup"/>
+		<link rel="alternate stylesheet" href="contrastdown.css" title="contrastdown"/>
+		<script type="text/javascript" src="sudoku.js"></script>
+		<script type="text/javascript" src="stylechange.js"></script>
+		
+	</head>
+	
+	<body onload="loadEasy()">
+	<div id="center">
+			<div id="header">
+				<img src="logo.png" alt="Fayes Sudoku" width="" height="" /><br />
+				Note: Requires Javascript to play!
+			</div>
+				
+		<div id="leftcolumn">
+			<ul>
+				<li><a href="javascript:loadEasy()">Easy</a></li> 
+				<li><a href="javascript:loadMedium()">Normal</a></li>
+				<li><a href="javascript:loadHard()">Hard</a></li>
+			</ul>
+		</div>
+				
+		<div id="rightcolumn">
+		<li><a href=""#" onclick="setActiveStyleSheet('smallfont'); return false;"">Small Font</a></li> 
+		<li><a href=""#" onclick="setActiveStyleSheet('mediumfont'); return false;"">Medium Font</a></li> 
+		<li><a href=""#" onclick="setActiveStyleSheet('largefont'); return false;"">Large Font</a></li> 
+		<li><a href=""#" onclick="setActiveStyleSheet('contrastup'); return false;"">Contrast Up</a></li> 
+		<li><a href=""#" onclick="setActiveStyleSheet('contrastdown'); return false;"">Contrast Down</a></li> 
+		</div>
+		
+		<div id="centalcolumn">
+			The aim of the game: Fill all rows, columns, and 3x3 boxes with the numbers 1 through 9!<br />
+			<span id="centralheader"><a href="javascript:checkPuzzle()">Check puzzle</a>
+			<a href="javascript:loadDefault()">Reset puzzle</a>
+			<a href="javascript:selectCell()">Select Cell</a></span>
+			<br /><span id="checkOutput">Click a cell or use the "S" key and type in the row and column you require, and type!</span>
+			
+			<div id="sudoku">
+					<div id="box1" class="topborder leftborder"></div>
+					<div id="box2" class="topborder"></div>
+					<div id="box3" class="topborder rightborder "></div>
+					<div id="box4" class="topborder"></div>
+					<div id="box5" class="topborder"></div>
+					<div id="box6" class="topborder rightborder"></div>
+					<div id="box7" class="topborder"></div>
+					<div id="box8" class="topborder"></div>
+					<div id="box9" class="topborder rightborder"></div>
+				
+					<div id="box10" class="leftborder"></div>
+					<div id="box11"></div>
+					<div id="box12" class="rightborder"></div>
+					<div id="box13"></div>
+					<div id="box14"></div>
+					<div id="box15" class="rightborder"></div>
+					<div id="box16"></div>
+					<div id="box17"></div>
+					<div id="box18" class="rightborder"></div>
+				
+					<div id="box19" class="leftborder"></div>
+					<div id="box20"></div>
+					<div id="box21" class="rightborder"></div>
+					<div id="box22"></div>
+					<div id="box23"></div>
+					<div id="box24" class="rightborder"></div>
+					<div id="box25"></div>
+					<div id="box26"></div>
+					<div id="box27" class="rightborder"></div>
+				
+					<div id="box28" class="topborder leftborder"></div>
+					<div id="box29" class="topborder"></div>
+					<div id="box30" class="topborder rightborder"></div>
+					<div id="box31" class="topborder"></div>
+					<div id="box32" class="topborder"></div>
+					<div id="box33" class="topborder rightborder"></div>
+					<div id="box34" class="topborder"></div>
+					<div id="box35" class="topborder"></div>
+					<div id="box36" class="topborder rightborder"></div>
+				
+					<div id="box37" class="leftborder"></div>
+					<div id="box38"></div>
+					<div id="box39" class="rightborder"></div>
+					<div id="box40"></div>
+					<div id="box41"></div>
+					<div id="box42" class="rightborder"></div>
+					<div id="box43"></div>
+					<div id="box44"></div>
+					<div id="box45" class="rightborder"></div>
+				
+					<div id="box46" class="leftborder"></div>
+					<div id="box47"></div>
+					<div id="box48" class="rightborder"></div>
+					<div id="box49"></div>
+					<div id="box50"></div>
+					<div id="box51" class="rightborder"></div>
+					<div id="box52"></div>
+					<div id="box53"></div>
+					<div id="box54" class="rightborder"></div>
+				
+					<div id="box55" class="topborder leftborder"></div>
+					<div id="box56" class="topborder"></div>
+					<div id="box57" class="topborder rightborder"></div>
+					<div id="box58" class="topborder"></div>
+					<div id="box59" class="topborder"></div>
+					<div id="box60" class="topborder rightborder"></div>
+					<div id="box61" class="topborder"></div>
+					<div id="box62" class="topborder"></div>
+					<div id="box63" class="topborder rightborder"></div>
+				
+					<div id="box64" class="leftborder"></div>
+					<div id="box65"></div>
+					<div id="box66" class="rightborder"></div>
+					<div id="box67"></div>
+					<div id="box68"></div>
+					<div id="box69" class="rightborder"></div>
+					<div id="box70"></div>
+					<div id="box71"></div>
+					<div id="box72" class="rightborder"></div>
+				
+					<div id="box73" class="bottomborder leftborder"></div>
+					<div id="box74" class="bottomborder"></div>
+					<div id="box75" class="bottomborder rightborder"></div>
+					<div id="box76" class="bottomborder"></div>
+					<div id="box77" class="bottomborder"></div>
+					<div id="box78" class="bottomborder rightborder"></div>
+					<div id="box79" class="bottomborder"></div>
+					<div id="box80" class="bottomborder"></div>
+					<div id="box81" class="bottomborder rightborder"></div>
+				</div>
+		</div>
+				
+		<div id="footer">Faye Doherty's Sudoku game for Advanced Techniques in Web Design! ^_^    Last Updated: 15/05/08
+		</div>
+		
+		
+		</div>
+	</body>
+	
+</html>
+
+
+

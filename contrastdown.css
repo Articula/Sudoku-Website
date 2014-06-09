@@ -1,0 +1,31 @@
+/*
+
+	Contrast Down CSS sheet - Changes background colours to the default purple setting.
+
+*/
+
+
+html{
+	background:#b9b2ff;
+}
+
+#header{
+	background:#9389ff;
+}
+
+#leftcolumn{
+	background:#5932ff;
+}
+
+#rightcolumn {
+	background:#5932ff;
+}
+
+
+#footer {
+	background:#9227ff;
+}
+
+#sudoku div {
+	background:#ffffff;
+	}

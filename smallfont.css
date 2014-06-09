@@ -1,0 +1,22 @@
+/*
+
+	Small font CSS sheet - Sizes all text to the "small" default.
+
+*/
+
+
+#leftcolumn{
+	font-size: 1.1em;
+}
+
+#rightcolumn {
+	font-size: 1.1em;
+}
+
+#centalcolumn{
+	font-size: 0.9em;
+}
+
+#footer {
+	font-size: 0.8em;
+}
